@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>For You ❤️</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      background: #faf6ef;
+      color: #493f3a;
+      font-family: Georgia, "Times New Roman", serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 28px;
+    }
+
+    .page {
+      width: 100%;
+      max-width: 620px;
+      text-align: center;
+      padding: 55px 28px;
+      animation: fadeIn 1.5s ease;
+    }
+
+    .small {
+      font-size: 15px;
+      letter-spacing: 2px;
+      color: #9b8175;
+      margin-bottom: 28px;
+    }
+
+    .heart {
+      font-size: 25px;
+      margin-bottom: 25px;
+      color: #9d6f67;
+    }
+
+    h1 {
+      font-size: 38px;
+      font-weight: normal;
+      margin: 0 0 32px;
+      color: #493f3a;
+    }
+
+    .message {
+      font-size: 18px;
+      line-height: 1.9;
+      max-width: 540px;
+      margin: auto;
+    }
+
+    .message p {
+      margin: 0 0 22px;
+    }
+
+    .highlight {
+      font-size: 21px;
+      font-weight: bold;
+      margin: 32px 0;
+    }
+
+    .button {
+      display: inline-block;
+      margin-top: 20px;
+      padding: 14px 30px;
+      border: 1px solid #b99b91;
+      border-radius: 30px;
+      color: #5a4841;
+      text-decoration: none;
+      font-size: 16px;
+      letter-spacing: 1px;
+      transition: 0.3s ease;
+      background: rgba(255,255,255,0.45);
+    }
+
+    .button:hover {
+      background: #eee3d8;
+      transform: translateY(-2px);
+    }
+
+    .bottom-heart {
+      margin-top: 45px;
+      font-size: 17px;
+      color: #9d6f67;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(12px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 31px;
+      }
+
+      .message {
+        font-size: 16px;
+        line-height: 1.8;
+      }
+
+      .page {
+        padding: 35px 15px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <main class="page">
+
+    <div class="small">
+      FOR YOU, ON YOUR BIRTHDAY
+    </div>
+
+    <div class="heart">♡</div>
+
+    <h1>Hey, you. ❤️</h1>
+
+    <div class="message">
+
+      <p>
+        Before you open anything else,
+        I just want you to know something.
+      </p>
+
+      <p>
+        I don't think a normal birthday gift could ever really
+        explain how much you mean to me.
+      </p>
+
+      <p>
+        So instead, I made you this little journey —
+        filled with things I wanted you to have,
+        things I wanted you to remember,
+        and a few pieces of my heart along the way.
+      </p>
+
+      <p>
+        You don't have to rush through it.
+        Just take your time, smile when you can,
+        and enjoy every little thing.
+      </p>
+
+      <p class="highlight">
+        Because this isn't just a gift for your birthday.
+        <br>
+        It's something I made for you. ❤️
+      </p>
+
+      <a class="button" href="#begin">
+        ♡ Begin ♡
+      </a>
+
+    </div>
+
+    <div class="bottom-heart">
+      Made with love, just for you.
+    </div>
+
+  </main>
+
+</body>
+</html>
